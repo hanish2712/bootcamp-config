@@ -66,7 +66,31 @@ bootstrap:
           - cdf-group: cdf:all:read
             idp-source-id: 81aab642-7a26-4bb2-997b-1c4818b90b0f
             idp-source-name: bootcamp-16-test-all-read
+          - cdf-group: cdf:uc:001:oee:owner
+            idp-source-id: 00e3ddd8-7c0f-420d-9c02-0f379710c42e
+            idp-source-name: bootcamp-16-test-uc-001-oee-owner
+          - cdf-group: cdf:uc:001:oee:read
+            idp-source-id: 8a610496-66d5-484e-8d02-b408a0a827a2
+            idp-source-name: bootcamp-16-test-uc-001-oee-read
 
+
+    - cdf-project: cdf-bootcamp-16-prod
+      mappings:
+          - cdf-group: cdf:root
+            idp-source-id: 684794f3-df2d-45a7-b68f-30aa46ee6029
+            idp-source-name: bootcamp-16-prod-admin
+          - cdf-group: cdf:all:owner
+            idp-source-id: 414c9e70-61ea-4486-9883-2500cd97a34b
+            idp-source-name: bootcamp-16-prod-all-owner
+          - cdf-group: cdf:all:read
+            idp-source-id: c7c7ddcc-b4ac-4424-877b-2f78603bcb28
+            idp-source-name: bootcamp-16-prod-all-read
+          - cdf-group: cdf:uc:001:oee:owner
+            idp-source-id: 51df2702-6525-47ea-a179-332e80bcc4e3
+            idp-source-name: bootcamp-16-prod-uc-001-oee-owner
+          - cdf-group: cdf:uc:001:oee:read
+            idp-source-id: da4c6992-ea94-4a5a-bdfe-ab3a09491571
+            idp-source-name: bootcamp-16-prod-uc-001-oee-read
 
     namespaces:
     # Typical config will have separate namespace by data source ("src") and use cases ("uc")
